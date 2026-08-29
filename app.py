@@ -138,7 +138,7 @@ with tab_map:
         .reset_index()
     )
 
-    fig = px.scatter_mapbox(
+    fig = px.scatter_map(
         site_summary,
         lat="Latitude", lon="Longitude",
         size="Total_Observations", color="Unique_Species",
@@ -149,7 +149,7 @@ with tab_map:
         color_continuous_scale="Greens",
         title="Observation Activity by Park",
     )
-    fig.update_layout(mapbox_style="open-street-map", margin=dict(l=0, r=0, t=40, b=0))
+    fig.update_layout(map_style="open-street-map", margin=dict(l=0, r=0, t=40, b=0))
     st.plotly_chart(fig, use_container_width=True)
 
     st.caption(
