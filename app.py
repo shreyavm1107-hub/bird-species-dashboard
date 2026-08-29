@@ -14,7 +14,8 @@ import streamlit as st
 # Page config
 # ----------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Bird Species Observation Analysis",
+    page_title="Bird Species Observation Analysis :
+    Created By Shreya Mohite ",
     page_icon="🐦",
     layout="wide",
 )
