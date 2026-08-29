@@ -14,8 +14,7 @@ import streamlit as st
 # Page config
 # ----------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Bird Species Observation Analysis
-    Created By Shreya Mohite ",
+    page_title="Bird Species Observation Analysis ",
     page_icon="🐦",
     layout="wide",
 )
@@ -61,7 +60,8 @@ st.sidebar.caption(f"{len(filtered):,} of {len(df):,} observations shown")
 # ----------------------------------------------------------------------------
 # Header + KPI row
 # ----------------------------------------------------------------------------
-st.title("Bird Species Observation Analysis")
+st.title("Bird Species Observation Analysis 
+Created by Shreya Mohite")
 st.caption("Forest vs. Grassland bird monitoring across 11 National Park Service units — 2018 survey season")
 
 k1, k2, k3, k4 = st.columns(4)
